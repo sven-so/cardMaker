@@ -225,6 +225,7 @@
                 $("#image3980").attr("xlink:href",e.target.result);
                 $("#selImage").attr("src", e.target.result);
                 $('img#selImage').imgAreaSelect({
+                    parent: $("#image"),
                     handles: true,
                     aspectRatio: '192:138',
                     onSelectChange: preview
