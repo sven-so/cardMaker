@@ -12,14 +12,7 @@
 
 <div class="row">
     <svg
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:cc="http://creativecommons.org/ns#"
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:svg="http://www.w3.org/2000/svg"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
             width="500px"
             height="500px"
             id="svg2"
@@ -28,31 +21,13 @@
             inkscape:version="0.48.2 r9819"
             sodipodi:docname="karte2.svg">
         <defs
-                id="defs4" />
+                id="defs4" ></defs>
         <clipPath id="myClipPath">
             <rect y="130.78326"
                   x="170.86511"
                   height="138.33719"
                   width="192.37482"> </rect>
         </clipPath>
-        <sodipodi:namedview
-                id="base"
-                pagecolor="#ffffff"
-                bordercolor="#666666"
-                borderopacity="1.0"
-                inkscape:pageopacity="0.0"
-                inkscape:pageshadow="2"
-                inkscape:zoom="1.979899"
-                inkscape:cx="272.95937"
-                inkscape:cy="826.82917"
-                inkscape:document-units="px"
-                inkscape:current-layer="layer3"
-                showgrid="false"
-                inkscape:window-width="1680"
-                inkscape:window-height="998"
-                inkscape:window-x="-8"
-                inkscape:window-y="-8"
-                inkscape:window-maximized="1" />
         <g
                 inkscape:groupmode="layer"
                 id="layer2"
@@ -127,6 +102,15 @@
                     height="138.33719"
                     clip-path="url(#myClipPath)"
                     width="192.37482" />
+            <text x="177" y="123"
+                  style="font-size:16px;font-style:normal;font-weight:bold;font-stretch:normal;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">
+                Header</text>
+            <text x="177" y="287"
+                  style="font-size:14px;font-style:normal;font-weight:bold;font-stretch:normal;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">
+                2. Header</text>
+            <text x="177" y="307"
+                  style="font-size:12px;font-style:normal;font-weight:normal;font-stretch:normal;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">
+                <tspan>Text 1</tspan><tspan>Text 2</tspan></text>
             <flowRoot
            xml:space="preserve"
            id="flowRoot3779"
@@ -255,7 +239,7 @@
         }
     }
     function setBGColor(input1) {
-        $("#rect3967").css("fill", $(input1).val());
+        $("#rect3967").css("fill", "#"+$(input1).val());
     }
 </script>
 </body>
